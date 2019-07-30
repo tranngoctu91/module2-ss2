@@ -1,0 +1,13 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+
+[Added Associations]
+application/x-php=phpstorm_phpstorm.desktop;
+text/css=phpstorm_phpstorm.desktop;
+text/html=sublime-text_subl.desktop;
+application/javascript=sublime-text_subl.desktop;
+text/plain=phpstorm_phpstorm.desktop;

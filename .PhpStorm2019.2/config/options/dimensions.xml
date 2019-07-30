@@ -1,0 +1,18 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="371" y="154" />
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="716" y="365" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="372" y="225" />
+    <location key="SettingsEditor.0.0.1366.768" x="120" y="27" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1366.768" x="429" y="203" />
+    <location key="#Web_Browsers.0.0.1366.768" x="311" y="59" />
+    <location key="#PHP.0.0.1366.768" x="402" y="27" />
+    <location key="NewPhpFileDialog.0.0.1366.768" x="878" y="282" />
+    <size key="FileChooserDialogImpl.0.0.1366.768" width="424" height="513" />
+    <size key="SettingsEditor.0.0.1366.768" width="1064" height="711" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1366.768" width="554" height="390" />
+    <size key="#Web_Browsers.0.0.1366.768" width="800" height="677" />
+    <size key="#PHP.0.0.1366.768" width="619" height="741" />
+    <size key="NewPhpFileDialog.0.0.1366.768" width="389" height="151" />
+  </component>
+</application>

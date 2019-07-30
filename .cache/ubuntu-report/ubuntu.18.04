@@ -1,0 +1,83 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "Dell Inc.",
+    "Product": "Latitude E6420"
+  },
+  "BIOS": {
+    "Vendor": "Dell Inc.",
+    "Version": "A08"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "42",
+    "Stepping": "7",
+    "Name": "Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0126"
+    }
+  ],
+  "RAM": 6,
+  "Disks": [
+    250.1,
+    15.5
+  ],
+  "Partitions": [
+    60.2,
+    15.1
+  ],
+  "Screens": [
+    {
+      "Size": "309mmx174mm",
+      "Resolution": "1366x768",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "Asia/Ho_Chi_Minh",
+  "Install": {
+    "Media": "Ubuntu 18.04.2 LTS \"Bionic Beaver\" - Release amd64 (20190210)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "18": "console_setup",
+      "22": "wireless",
+      "85": "prepare",
+      "113": "wireless",
+      "116": "console_setup",
+      "119": "wireless",
+      "122": "prepare",
+      "143": "partman",
+      "180": "start_install",
+      "204": "timezone",
+      "254": "usersetup",
+      "290": "user_done",
+      "545": "done"
+    }
+  }
+}

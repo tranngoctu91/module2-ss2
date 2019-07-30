@@ -1,0 +1,13 @@
+2019/07/27-11:47:25.566 1aaf Recovering log #11
+2019/07/27-11:47:25.569 1aaf Level-0 table #13: started
+2019/07/27-11:47:25.571 1aaf Level-0 table #13: 7188 bytes OK
+2019/07/27-11:47:25.578 1aaf Delete type=3 #9
+2019/07/27-11:47:25.578 1aaf Delete type=0 #11
+2019/07/27-11:47:25.579 1b33 Compacting 4@0 + 0@1 files
+2019/07/27-11:47:25.584 1b33 Generated table #15@0: 12 keys, 3153 bytes
+2019/07/27-11:47:25.584 1b33 Compacted 4@0 + 0@1 files => 3153 bytes
+2019/07/27-11:47:25.590 1b33 compacted to: files[ 0 1 0 0 0 0 0 ]
+2019/07/27-11:47:25.591 1b33 Delete type=2 #13
+2019/07/27-11:47:25.591 1b33 Delete type=2 #5
+2019/07/27-11:47:25.591 1b33 Delete type=2 #8
+2019/07/27-11:47:25.591 1b33 Delete type=2 #10

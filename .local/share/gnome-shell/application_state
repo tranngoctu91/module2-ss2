@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="sublime-text_subl.desktop" open-window-count="0" score="20" last-seen="1564475118"/>
+    <application id="file-roller.desktop" open-window-count="0" score="0" last-seen="1564043054"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="19112.908630371094" last-seen="1564481474"/>
+    <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1564152457"/>
+    <application id="eog.desktop" open-window-count="0" score="0.00390625" last-seen="1564392507"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="5283.4969482421875" last-seen="1564481461"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="0" last-seen="1564385865"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="291.76234083250165" last-seen="1564478134"/>
+    <application id="thunderbird.desktop" open-window-count="0" score="0" last-seen="1564043068"/>
+    <application id="webstorm_webstorm.desktop" open-window-count="0" score="3.0001220791600645" last-seen="1564042958"/>
+    <application id="phpstorm_phpstorm.desktop" open-window-count="1" score="7608.7561340332031" last-seen="1564481376"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="6.50299072265625" last-seen="1564070075"/>
+  </context>
+</application-state>

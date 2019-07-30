@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/var/www/html/backend/session1/simpleCaculator/.idea/misc.xml" timestamp="1563864605000" />
+    <file path="/var/www/html/backend/session1/simpleCaculator/.idea/modules.xml" timestamp="1563864605000" />
+    <file path="/var/www/html/backend/session1/simpleCaculator/.idea/products display.iml" timestamp="1563864605000" />
+    <file path="/var/www/html/backend/session1/simpleCaculator/.idea/vcs.xml" timestamp="1563864605000" />
+    <file path="/var/www/html/backend/session1/simpleCaculator/.idea/workspace.xml" timestamp="1564197626000" />
+  </project-files>
+</conversion>
+

@@ -1,0 +1,90 @@
+{
+   "checksum": "dcb81c1e6d9cfaba0d1d4d6c8924fd2c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13207983735281804",
+            "id": "5",
+            "name": "backend",
+            "type": "url",
+            "url": "http://localhost/backend/"
+         }, {
+            "date_added": "13208442179821926",
+            "id": "17",
+            "name": "selfedu",
+            "type": "url",
+            "url": "http://localhost/selfedu/"
+         }, {
+            "date_added": "13207985113081231",
+            "id": "7",
+            "name": "EX",
+            "type": "url",
+            "url": "https://ken.codegym.vn/?controller=BoardViewController&action=show&project_id=2040"
+         }, {
+            "date_added": "13208240640534998",
+            "id": "10",
+            "name": "jame",
+            "type": "url",
+            "url": "https://james.codegym.vn/course/view.php?id=37"
+         }, {
+            "date_added": "13208240770091221",
+            "id": "11",
+            "name": "w1",
+            "type": "url",
+            "url": "https://james.codegym.vn/course/view.php?id=37&section=1"
+         }, {
+            "date_added": "13208857847783517",
+            "id": "19",
+            "name": "w2",
+            "type": "url",
+            "url": "https://james.codegym.vn/course/view.php?id=37&section=2"
+         }, {
+            "date_added": "13208260377188659",
+            "id": "13",
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13208440748627541",
+            "id": "15",
+            "name": "PHP",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=3yJeeub-6RY&list=PLv6GftO355AsZFXlWLKob6tMsWZa4VCY1"
+         }, {
+            "date_added": "13208858387866004",
+            "id": "20",
+            "name": "c0619i1 | CodeGym Hà Nội",
+            "type": "url",
+            "url": "https://app.slack.com/client/T4AQ8L79A/GKH4QPZA8"
+         }, {
+            "date_added": "13208858944683578",
+            "id": "21",
+            "name": "Read-Write JSON file using PHP | KodeCrash",
+            "type": "url",
+            "url": "http://www.kodecrash.com/javascript/read-write-json-file-using-php/"
+         } ],
+         "date_added": "13207983720785186",
+         "date_modified": "13208858944683578",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13207983720785193",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13207983720785195",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

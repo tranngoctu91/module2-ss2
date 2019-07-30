@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/var/www/html/backend/session1/readNumber/.idea/misc.xml" timestamp="1563864605617" />
+    <file path="/var/www/html/backend/session1/readNumber/.idea/modules.xml" timestamp="1563864605649" />
+    <file path="/var/www/html/backend/session1/readNumber/.idea/products display.iml" timestamp="1563864605577" />
+    <file path="/var/www/html/backend/session1/readNumber/.idea/vcs.xml" timestamp="1563864605629" />
+    <file path="/var/www/html/backend/session1/readNumber/.idea/workspace.xml" timestamp="1564242270775" />
+  </project-files>
+</conversion>
+

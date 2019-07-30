@@ -1,0 +1,16 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="ColorChooser.RecentColors" value="76-255-182-255" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="SettingsSearchHistory" value="font" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.191" value="17" />
+    <property name="file.chooser.recent.files" value="/var/www/html/backend/session1/simpleCaculator&#10;/var/www/html/backend/session1/currency Convert&#10;/var/www/html/selfedu/triangle_draw/abc.css&#10;/var/www/html/selfedu/triangle_draw/triangle.php&#10;/var/www/html/selfedu/triangle_draw/style.css&#10;/var/www/html/selfedu/caculator&#10;/var/www/html/backend/session1/dictionary&#10;/var/www/html/backend/session1/products display&#10;/var/www/html/backend/session1/login_funtion&#10;/var/www/html/backend/session1&#10;/var/www/html/backend&#10;/var/www/html/backend/test1&#10;/opt" />
+    <property name="file.gist.reindex.count" value="3" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="lastTip" value="19" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.4.1" />
+  </component>
+</application>

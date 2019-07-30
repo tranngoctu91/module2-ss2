@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/tu/01D51F681A801880/work/codegym/document/2.%20%5BBP%5D%20Syllabus%20v1.3%2020190224.pdf" added="2019-06-21T09:41:24Z" modified="2019-06-21T09:41:24Z" visited="2019-06-21T09:41:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-06-21T09:41:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/software/WebStorm-2019.1.3.exe" added="2019-06-21T09:42:27Z" modified="2019-06-21T09:42:27Z" visited="2019-06-21T09:42:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2019-06-21T09:42:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_tu0/firefox-67.0.4.tar.bz2" added="2019-06-21T16:54:43Z" modified="2019-06-21T16:54:43Z" visited="2019-06-21T16:54:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-06-21T16:54:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tu/Downloads/google-chrome-stable_current_amd64.deb" added="2019-07-19T04:16:50Z" modified="2019-07-19T04:16:50Z" visited="2019-07-19T04:16:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-19T04:16:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/New%20Text%20Document.txt" added="2019-07-19T04:43:27Z" modified="2019-07-19T04:43:27Z" visited="2019-07-19T04:43:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-07-19T04:43:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/be%20ngoc%20limh/be%20ngoc%20limh/IMG_0803.JPG" added="2019-07-22T03:57:32Z" modified="2019-07-22T03:57:32Z" visited="2019-07-22T03:57:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-22T03:57:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/be%20ngoc%20limh/be%20ngoc%20limh/IMG_0837.JPG" added="2019-07-22T03:57:45Z" modified="2019-07-22T03:57:45Z" visited="2019-07-22T03:57:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-22T03:57:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/be%20ngoc%20limh/be%20ngoc%20limh/IMG_0838.JPG" added="2019-07-22T03:57:46Z" modified="2019-07-22T03:57:46Z" visited="2019-07-22T03:57:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-22T03:57:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/be%20ngoc%20limh/be%20ngoc%20limh/IMG_0840.JPG" added="2019-07-22T03:57:48Z" modified="2019-07-22T03:57:48Z" visited="2019-07-22T03:57:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-22T03:57:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/be%20ngoc%20limh/be%20ngoc%20limh/IMG_0841.JPG" added="2019-07-22T03:57:49Z" modified="2019-07-22T03:57:49Z" visited="2019-07-22T03:57:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-22T03:57:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/reference/simple_login/index_GET.php" added="2019-07-22T09:49:02Z" modified="2019-07-22T09:49:02Z" visited="2019-07-22T09:49:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop /snap/bin/phpstorm %f&apos;" modified="2019-07-22T09:49:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/reference/simple_login/index.php" added="2019-07-22T09:49:09Z" modified="2019-07-22T09:49:09Z" visited="2019-07-22T09:49:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop /snap/bin/phpstorm %f&apos;" modified="2019-07-22T09:49:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/products%20display/1.jpeg" added="2019-07-23T06:56:12Z" modified="2019-07-23T06:56:17Z" visited="2019-07-23T06:56:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-23T06:56:12Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-23T06:56:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/products%20display/2.jpeg" added="2019-07-23T06:56:41Z" modified="2019-07-23T06:56:41Z" visited="2019-07-23T06:56:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-23T06:56:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/products%20display/3.jpeg" added="2019-07-23T06:56:52Z" modified="2019-07-23T06:56:52Z" visited="2019-07-23T06:56:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-23T06:56:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/products%20display/4.jpeg" added="2019-07-23T06:57:02Z" modified="2019-07-23T06:57:02Z" visited="2019-07-23T06:57:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-23T06:57:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/products%20display/5.jpeg" added="2019-07-23T06:57:13Z" modified="2019-07-23T06:57:13Z" visited="2019-07-23T06:57:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-23T06:57:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/reference/customer-list/images/img1.jpg" added="2019-07-23T07:18:18Z" modified="2019-07-29T09:28:25Z" visited="2019-07-23T07:18:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-29T09:28:25Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/products%20display/images" added="2019-07-23T08:08:10Z" modified="2019-07-23T08:08:10Z" visited="2019-07-23T08:08:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-07-23T08:08:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tu/file2" added="2019-07-24T12:51:28Z" modified="2019-07-24T12:51:28Z" visited="2019-07-24T12:51:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-07-24T12:51:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/kimnguu.jpg" added="2019-07-24T12:57:00Z" modified="2019-07-24T12:57:00Z" visited="2019-07-24T12:57:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:57:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/songtu.jpg" added="2019-07-24T12:57:19Z" modified="2019-07-24T12:57:19Z" visited="2019-07-24T12:57:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:57:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/cugiai.jpg" added="2019-07-24T12:57:35Z" modified="2019-07-24T12:57:35Z" visited="2019-07-24T12:57:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:57:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/sutu.jpg" added="2019-07-24T12:58:05Z" modified="2019-07-24T12:58:05Z" visited="2019-07-24T12:58:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:58:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/xunu.jpg" added="2019-07-24T12:58:16Z" modified="2019-07-24T12:58:16Z" visited="2019-07-24T12:58:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:58:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/thienbinh.jpg" added="2019-07-24T12:58:35Z" modified="2019-07-24T12:58:35Z" visited="2019-07-24T12:58:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:58:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/bocap.jpg" added="2019-07-24T12:58:48Z" modified="2019-07-24T12:58:48Z" visited="2019-07-24T12:58:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:58:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/nhanma.jpg" added="2019-07-24T12:59:00Z" modified="2019-07-24T12:59:00Z" visited="2019-07-24T12:59:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:59:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/maket.jpg" added="2019-07-24T12:59:11Z" modified="2019-07-24T12:59:11Z" visited="2019-07-24T12:59:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:59:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/baobinh.jpg" added="2019-07-24T12:59:26Z" modified="2019-07-29T08:57:06Z" visited="2019-07-24T12:59:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T12:59:26Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-29T08:57:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/songngu.jpg" added="2019-07-24T13:00:11Z" modified="2019-07-24T13:00:11Z" visited="2019-07-24T13:00:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-07-24T13:00:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/cunghoangndao/images/bachduong.jpg" added="2019-07-24T13:00:31Z" modified="2019-07-24T13:00:31Z" visited="2019-07-24T13:00:31Z">
+    <title>bachduong.jpg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable file:///var/www/html/selfedu/cunghoangndao/images/1.jpg&apos;" modified="2019-07-24T13:00:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/selfedu/triangle_draw/abc.css" added="2019-07-25T08:28:03Z" modified="2019-07-25T08:28:03Z" visited="2019-07-25T08:28:03Z">
+    <title>abc.css</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop /snap/bin/phpstorm /var/www/html/selfedu/triangle_draw/style.css&apos;" modified="2019-07-25T08:28:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/work/codegym/module1/section8/qlsp%20try%201/index.html" added="2019-07-27T04:33:49Z" modified="2019-07-27T04:33:49Z" visited="2019-07-27T04:33:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/sublime-text_subl.desktop /snap/bin/sublime-text.subl %U&apos;" modified="2019-07-27T04:33:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/work/codegym/module1/section8/qlsp%20try%201/myjs.js" added="2019-07-27T04:33:57Z" modified="2019-07-27T04:34:06Z" visited="2019-07-27T04:33:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-07-27T04:33:57Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/sublime-text_subl.desktop /snap/bin/sublime-text.subl %U&apos;" modified="2019-07-27T04:34:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/work/codegym/module1/section4/in20sontodautien/in20sontodautien.html" added="2019-07-28T23:56:32Z" modified="2019-07-28T23:56:32Z" visited="2019-07-28T23:56:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/sublime-text_subl.desktop /snap/bin/sublime-text.subl %U&apos;" modified="2019-07-28T23:56:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/tu/01D51F681A801880/work/codegym/module1/section5/tu_dien/tu_dien.html" added="2019-07-28T23:58:00Z" modified="2019-07-28T23:58:00Z" visited="2019-07-28T23:58:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/sublime-text_subl.desktop /snap/bin/sublime-text.subl %U&apos;" modified="2019-07-28T23:58:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/backend/session1/register/data.json" added="2019-07-29T07:37:40Z" modified="2019-07-29T07:37:52Z" visited="2019-07-29T07:37:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-07-29T07:37:43Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop /snap/bin/phpstorm %f&apos;" modified="2019-07-29T07:37:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

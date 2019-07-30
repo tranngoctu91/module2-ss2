@@ -1,0 +1,1008 @@
+2019-06-21 23:49:32,993 [      1]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-06-21 23:49:33,113 [    121]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-06-21 23:49:33,113 [    121]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-06-21 23:49:33,113 [    121]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-06-21 23:49:33,113 [    121]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-06-21 23:49:33,125 [    133]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-06-21 23:49:33,126 [    134]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-06-21 23:49:33,126 [    134]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-06-21 23:49:33,157 [    165]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 31 ms 
+2019-06-21 23:49:33,660 [    668]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-06-21 23:49:33,661 [    669]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-06-21 23:49:47,429 [  14437]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-06-21 23:49:59,604 [  26612]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-21 23:49:59,850 [  26858]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-21 23:49:59,850 [  26858]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-21 23:50:00,043 [  27051]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 904 ms 
+2019-06-21 23:50:11,645 [  38653]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-21 23:50:11,684 [  38692]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-21 23:50:11,684 [  38692]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-21 23:50:11,747 [  38755]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 175 ms 
+2019-06-21 23:50:18,997 [  46005]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@45b98b50[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@631c9984 
+2019-06-21 23:50:19,022 [  46030]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-06-21 23:50:19,227 [  46235]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-21 23:50:19,313 [  46321]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-21 23:50:19,313 [  46321]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-21 23:50:19,397 [  46405]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 229 ms 
+2019-06-21 23:50:19,402 [  46410]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-06-21 23:50:19,521 [  46529]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 353 ms 
+2019-06-21 23:50:19,522 [  46530]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-06-21 23:50:19,522 [  46530]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-06-21 23:50:20,486 [  47494]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-06-21 23:50:20,677 [  47685]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/tu/.WebStorm2019.1/system/caches/names.dat' does not exist 
+2019-06-21 23:50:20,678 [  47686]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-06-21 23:50:20,718 [  47726]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-06-21 23:50:20,744 [  47752]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-06-21 23:50:21,909 [  48917]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2019-06-21 23:50:21,909 [  48917]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2019-06-21 23:50:22,319 [  49327]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-06-21 23:50:22,385 [  49393]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-06-21 23:50:22,389 [  49397]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-06-21 23:50:22,435 [  49443]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-06-21 23:50:22,525 [  49533]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-06-21 23:50:23,027 [  50035]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:347, number of extensions:40 
+2019-06-21 23:50:23,052 [  50060]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:25 
+2019-06-21 23:50:23,080 [  50088]   INFO - il.indexing.FileBasedIndexImpl - Index FilenameIndex will be built. 
+2019-06-21 23:50:23,167 [  50175]   INFO - il.indexing.FileBasedIndexImpl - Index filetypes will be built. 
+2019-06-21 23:50:23,213 [  50221]   INFO - il.indexing.FileBasedIndexImpl - Index FrameworkDetectionIndex will be built. 
+2019-06-21 23:50:23,273 [  50281]   INFO - il.indexing.FileBasedIndexImpl - Index TodoIndex will be built. 
+2019-06-21 23:50:23,366 [  50374]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:307, number of extensions:74 
+2019-06-21 23:50:23,367 [  50375]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-06-21 23:50:23,429 [  50437]   INFO - pi.util.registry.RegistryValue - Registry value 'ide.tooltip.show.with.actions' has changed to 'true' 
+2019-06-21 23:50:23,519 [  50527]   INFO - il.indexing.FileBasedIndexImpl - Index IdIndex will be built. 
+2019-06-21 23:50:23,544 [  50552]   INFO - il.indexing.FileBasedIndexImpl - Index Stubs will be built. 
+2019-06-21 23:50:23,846 [  50854]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 4684ms 
+2019-06-21 23:50:23,880 [  50888]   INFO - .intellij.idea.IdeaApplication - App initialization took 53696 ms 
+2019-06-21 23:50:24,032 [  51040]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:ECMAScript 6,TypeScript JSX,Flow,HTML,Spacebars,EJS,CoffeeScript,Literate CoffeeScript,Sass,Stylus,SCSS,Handlebars/Mustache,Less,CSS,ActionScript,TypeScript,JavaScript,Vue.js,JSP,Jade,Angular Metadata JSON,Markdown,JSX Harmony,Angular2Html,XML 
+2019-06-21 23:50:24,153 [  51161]   INFO - il.indexing.FileBasedIndexImpl - Index Trigram.Index will be built. 
+2019-06-21 23:50:24,169 [  51177]   INFO - j.ide.ui.OptionsTopHitProvider - 1877 ms spent to cache options in application 
+2019-06-21 23:50:24,170 [  51178]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1877 ms 
+2019-06-21 23:50:24,223 [  51231]   INFO - il.indexing.FileBasedIndexImpl - Index fileIncludes will be built. 
+2019-06-21 23:50:24,287 [  51295]   INFO - il.indexing.FileBasedIndexImpl - Index DomFileIndex will be built. 
+2019-06-21 23:50:24,290 [  51298]   INFO - il.indexing.FileBasedIndexImpl - Index RelaxSymbolIndex will be built. 
+2019-06-21 23:50:24,297 [  51305]   INFO - il.indexing.FileBasedIndexImpl - Index XmlTagNames will be built. 
+2019-06-21 23:50:24,301 [  51309]   INFO - il.indexing.FileBasedIndexImpl - Index XmlNamespaces will be built. 
+2019-06-21 23:50:24,306 [  51314]   INFO - il.indexing.FileBasedIndexImpl - Index html5.custom.attributes.index will be built. 
+2019-06-21 23:50:24,309 [  51317]   INFO - il.indexing.FileBasedIndexImpl - Index SchemaTypeInheritance will be built. 
+2019-06-21 23:50:24,318 [  51326]   INFO - il.indexing.FileBasedIndexImpl - Index ImageFileInfoIndex will be built. 
+2019-06-21 23:50:24,322 [  51330]   INFO - il.indexing.FileBasedIndexImpl - Index json.file.root.values will be built. 
+2019-06-21 23:50:24,336 [  51344]   INFO - il.indexing.FileBasedIndexImpl - Index HtmlTagIdIndex will be built. 
+2019-06-21 23:50:24,357 [  51365]   INFO - il.indexing.FileBasedIndexImpl - Index XsltSymbolIndex will be built. 
+2019-06-21 23:50:24,370 [  51378]   INFO - il.indexing.FileBasedIndexImpl - Index CssIndex will be built. 
+2019-06-21 23:50:24,385 [  51393]   INFO - il.indexing.FileBasedIndexImpl - Index css.template.selectors will be built. 
+2019-06-21 23:50:24,388 [  51396]   INFO - il.indexing.FileBasedIndexImpl - Index editorconfig.index.name will be built. 
+2019-06-21 23:50:24,395 [  51403]   INFO - il.indexing.FileBasedIndexImpl - Index CompassFunctionsIndex will be built. 
+2019-06-21 23:50:24,428 [  51436]   INFO - il.indexing.FileBasedIndexImpl - Index js.test.names will be built. 
+2019-06-21 23:50:24,449 [  51457]   INFO - il.indexing.FileBasedIndexImpl - Index js.package.index will be built. 
+2019-06-21 23:50:24,452 [  51460]   INFO - il.indexing.FileBasedIndexImpl - Index js.custom.single.entry.index will be built. 
+2019-06-21 23:50:24,462 [  51470]   INFO - il.indexing.FileBasedIndexImpl - Index js.implicit.elements.index will be built. 
+2019-06-21 23:50:24,468 [  51476]   INFO - il.indexing.FileBasedIndexImpl - Index angularjs.template.cache will be built. 
+2019-06-21 23:50:24,472 [  51480]   INFO - il.indexing.FileBasedIndexImpl - Index angularjs.ui.router.views.index will be built. 
+2019-06-21 23:50:24,475 [  51483]   INFO - il.indexing.FileBasedIndexImpl - Index angularjs.app.index will be built. 
+2019-06-21 23:50:24,477 [  51485]   INFO - il.indexing.FileBasedIndexImpl - Index WebComponentsIndex will be built. 
+2019-06-21 23:50:24,480 [  51488]   INFO - il.indexing.FileBasedIndexImpl - Index MeteorTemplateIndex will be built. 
+2019-06-21 23:50:24,484 [  51492]   INFO - il.indexing.FileBasedIndexImpl - Index http.request.execution.environment will be built. 
+2019-06-21 23:50:24,491 [  51499]   INFO - il.indexing.FileBasedIndexImpl - Index yaml.keys.name will be built. 
+2019-06-21 23:50:24,498 [  51506]   INFO - il.indexing.FileBasedIndexImpl - Index DartImportIndex will be built. 
+2019-06-21 23:50:24,501 [  51509]   INFO - il.indexing.FileBasedIndexImpl - Index DartPathIndex will be built. 
+2019-06-21 23:50:24,505 [  51513]   INFO - il.indexing.FileBasedIndexImpl - Index DartClassIndex will be built. 
+2019-06-21 23:50:24,508 [  51516]   INFO - il.indexing.FileBasedIndexImpl - Index DartLibraryIndex will be built. 
+2019-06-21 23:50:24,511 [  51519]   INFO - il.indexing.FileBasedIndexImpl - Index DartComponentIndex will be built. 
+2019-06-21 23:50:24,514 [  51522]   INFO - il.indexing.FileBasedIndexImpl - Index DartSymbolIndex will be built. 
+2019-06-21 23:50:24,517 [  51525]   INFO - il.indexing.FileBasedIndexImpl - Index docker.compose.services will be built. 
+2019-06-21 23:50:24,525 [  51533]   INFO - pl$FileIndexDataInitialization - Initialization done:1477 
+2019-06-21 23:50:24,526 [  51534]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index dom.namespaceKey will be built. 
+2019-06-21 23:50:24,535 [  51543]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index dom.elementClass will be built. 
+2019-06-21 23:50:24,536 [  51544]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.ampersand.selector will be built. 
+2019-06-21 23:50:24,538 [  51546]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.class will be built. 
+2019-06-21 23:50:24,540 [  51548]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.id will be built. 
+2019-06-21 23:50:24,541 [  51549]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.attr will be built. 
+2019-06-21 23:50:24,544 [  51552]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.custom.property will be built. 
+2019-06-21 23:50:24,545 [  51553]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.custom.mixin will be built. 
+2019-06-21 23:50:24,547 [  51555]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index markdown.header will be built. 
+2019-06-21 23:50:24,548 [  51556]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Less.mixins will be built. 
+2019-06-21 23:50:24,550 [  51558]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Less.variables will be built. 
+2019-06-21 23:50:24,553 [  51561]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.variable will be built. 
+2019-06-21 23:50:24,555 [  51563]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.placeholder.selector will be built. 
+2019-06-21 23:50:24,556 [  51564]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.function will be built. 
+2019-06-21 23:50:24,559 [  51567]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.mixin will be built. 
+2019-06-21 23:50:24,561 [  51569]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Stylus.variables will be built. 
+2019-06-21 23:50:24,562 [  51570]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Stylus.mixins will be built. 
+2019-06-21 23:50:24,565 [  51573]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.qualified.shortName will be built. 
+2019-06-21 23:50:24,566 [  51574]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.element.qualifiedName will be built. 
+2019-06-21 23:50:24,568 [  51576]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.global.qualified.elements will be built. 
+2019-06-21 23:50:24,569 [  51577]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ts.external.module.index will be built. 
+2019-06-21 23:50:24,571 [  51579]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.class.super will be built. 
+2019-06-21 23:50:24,573 [  51581]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.class.implements will be built. 
+2019-06-21 23:50:24,574 [  51582]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.custom.stub.index will be built. 
+2019-06-21 23:50:24,576 [  51584]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.symbol.index2 will be built. 
+2019-06-21 23:50:24,578 [  51586]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.typedef.index2 will be built. 
+2019-06-21 23:50:24,580 [  51588]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.generics.index will be built. 
+2019-06-21 23:50:24,583 [  51591]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.base.types.index will be built. 
+2019-06-21 23:50:24,586 [  51594]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.class.index2 will be built. 
+2019-06-21 23:50:24,588 [  51596]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.namespace.index will be built. 
+2019-06-21 23:50:24,590 [  51598]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.namespace.including.local.members.index will be built. 
+2019-06-21 23:50:24,591 [  51599]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.subclass.stub.index will be built. 
+2019-06-21 23:50:24,593 [  51601]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.symbol.qualified.names.index will be built. 
+2019-06-21 23:50:24,594 [  51602]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index amd.baseUrl.index will be built. 
+2019-06-21 23:50:24,596 [  51604]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index amd.requirePaths.index will be built. 
+2019-06-21 23:50:24,598 [  51606]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.global.symbol.index will be built. 
+2019-06-21 23:50:24,599 [  51607]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.exported.index will be built. 
+2019-06-21 23:50:24,601 [  51609]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index es6.exported.index will be built. 
+2019-06-21 23:50:24,603 [  51611]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index es6.assignment.index will be built. 
+2019-06-21 23:50:24,605 [  51613]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ts.local.classes will be built. 
+2019-06-21 23:50:24,607 [  51615]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ts.embedded.content.index will be built. 
+2019-06-21 23:50:24,609 [  51617]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.nonglobal.symbol.index will be built. 
+2019-06-21 23:50:24,610 [  51618]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.gcl.modules will be built. 
+2019-06-21 23:50:24,612 [  51620]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.doc.modules will be built. 
+2019-06-21 23:50:24,614 [  51622]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.amd.modules will be built. 
+2019-06-21 23:50:24,615 [  51623]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.directives.index will be built. 
+2019-06-21 23:50:24,617 [  51625]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.directives.doc.index will be built. 
+2019-06-21 23:50:24,619 [  51627]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.controller.index will be built. 
+2019-06-21 23:50:24,620 [  51628]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.module.index will be built. 
+2019-06-21 23:50:24,622 [  51630]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.filter.index will be built. 
+2019-06-21 23:50:24,624 [  51632]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.symbol.index will be built. 
+2019-06-21 23:50:24,625 [  51633]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.ui.router.states.index will be built. 
+2019-06-21 23:50:24,627 [  51635]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.ui.router.generic.states.index will be built. 
+2019-06-21 23:50:24,651 [  51659]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.templateUrl.index will be built. 
+2019-06-21 23:50:24,654 [  51662]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.generic.modules.index will be built. 
+2019-06-21 23:50:24,656 [  51664]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.delimiter.index will be built. 
+2019-06-21 23:50:24,658 [  51666]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.templateUrl.index will be built. 
+2019-06-21 23:50:24,659 [  51667]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.source.pipe.index will be built. 
+2019-06-21 23:50:24,662 [  51670]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.source.directive.index will be built. 
+2019-06-21 23:50:24,664 [  51672]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.source.module.index will be built. 
+2019-06-21 23:50:24,666 [  51674]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.pipe.index will be built. 
+2019-06-21 23:50:24,667 [  51675]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.entityClassName.index will be built. 
+2019-06-21 23:50:24,669 [  51677]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.directive.index will be built. 
+2019-06-21 23:50:24,671 [  51679]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.node.index will be built. 
+2019-06-21 23:50:24,673 [  51681]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.function.index will be built. 
+2019-06-21 23:50:24,675 [  51683]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.module.index will be built. 
+2019-06-21 23:50:24,677 [  51685]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index jade.mixin will be built. 
+2019-06-21 23:50:24,678 [  51686]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.components.index will be built. 
+2019-06-21 23:50:24,680 [  51688]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.options.index will be built. 
+2019-06-21 23:50:24,681 [  51689]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.mixin.binding.index will be built. 
+2019-06-21 23:50:24,682 [  51690]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.extends.binding.index will be built. 
+2019-06-21 23:50:24,684 [  51692]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.global.directives.index will be built. 
+2019-06-21 23:50:24,686 [  51694]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.local.directives.index will be built. 
+2019-06-21 23:50:24,687 [  51695]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vuex.store.index will be built. 
+2019-06-21 23:50:24,689 [  51697]   INFO - exImpl$StubIndexInitialization - Initialization done:164 
+2019-06-21 23:50:25,351 [  52359]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-06-21 23:50:25,493 [  52501]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-06-21 23:50:26,190 [  53198]   INFO - j.ide.ui.OptionsTopHitProvider - 499 ms spent on EDT to cache options in application 
+2019-06-21 23:50:27,074 [  54082]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 2903 ms 
+2019-06-21 23:50:27,657 [  54665]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 582 ms 
+2019-06-21 23:50:28,327 [  55335]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 669 ms 
+2019-06-21 23:50:28,337 [  55345]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 9 ms 
+2019-06-21 23:50:29,191 [  56199]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 332 ms 
+2019-06-21 23:50:52,599 [  79607]   INFO - rationStore.ComponentStoreImpl - Saving appCodeInsightSettings took 11 ms, FileTypeManager took 16 ms, XDebuggerSettings took 17 ms 
+2019-06-21 23:50:52,675 [  79683]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-06-21 23:50:52,676 [  79684]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-06-21 23:50:52,676 [  79684]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-06-21 23:50:52,721 [  79729]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-06-21 23:50:52,725 [  79733]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-06-21 23:50:52,731 [  79739]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 4 auto-detected files
+Elapsed time on auto-detect: 121 ms 
+2019-06-21 23:50:52,748 [  79756]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-06-21 23:50:52,756 [  79764]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-06-21 23:50:52,758 [  79766]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-06-21 23:50:52,762 [  79770]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-06-21 23:50:52,769 [  79777]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-06-24 13:29:23,518 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-06-24 13:29:23,669 [    151]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-06-24 13:29:23,669 [    151]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-06-24 13:29:23,669 [    151]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-06-24 13:29:23,669 [    151]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-06-24 13:29:23,684 [    166]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-06-24 13:29:23,685 [    167]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-06-24 13:29:23,685 [    167]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-06-24 13:29:23,727 [    209]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 42 ms 
+2019-06-24 13:29:24,342 [    824]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-06-24 13:29:24,343 [    825]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-06-24 13:29:26,274 [   2756]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-24 13:29:26,511 [   2993]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-24 13:29:26,512 [   2994]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-24 13:29:26,696 [   3178]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 946 ms 
+2019-06-24 13:29:26,817 [   3299]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@28433dd4[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@65217e6d 
+2019-06-24 13:29:26,917 [   3399]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-06-24 13:29:27,287 [   3769]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-24 13:29:27,358 [   3840]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-24 13:29:27,360 [   3842]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-24 13:29:27,617 [   4099]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 401 ms 
+2019-06-24 13:29:27,639 [   4121]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-06-24 13:29:27,773 [   4255]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 558 ms 
+2019-06-24 13:29:27,774 [   4256]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-06-24 13:29:27,774 [   4256]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-06-24 13:29:29,068 [   5550]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-06-24 13:29:29,249 [   5731]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-06-24 13:29:29,249 [   5731]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-06-24 13:29:29,279 [   5761]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-06-24 13:29:29,330 [   5812]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-06-24 13:29:29,374 [   5856]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-06-24 13:29:29,400 [   5882]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-06-24 13:29:31,459 [   7941]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-06-24 13:29:31,510 [   7992]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-06-24 13:29:31,554 [   8036]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-06-24 13:29:31,641 [   8123]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-06-24 13:29:31,747 [   8229]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-06-24 13:29:32,074 [   8556]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:211, number of extensions:40 
+2019-06-24 13:29:32,085 [   8567]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:10 
+2019-06-24 13:29:32,232 [   8714]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:131, number of extensions:74 
+2019-06-24 13:29:32,233 [   8715]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-06-24 13:29:32,800 [   9282]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 5590ms 
+2019-06-24 13:29:32,827 [   9309]   INFO - .intellij.idea.IdeaApplication - App initialization took 12191 ms 
+2019-06-24 13:29:32,917 [   9399]   INFO - j.ide.ui.OptionsTopHitProvider - 1751 ms spent to cache options in application 
+2019-06-24 13:29:32,918 [   9400]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1752 ms 
+2019-06-24 13:29:33,523 [  10005]   INFO - pl$FileIndexDataInitialization - Initialization done:1438 
+2019-06-24 13:29:33,711 [  10193]   INFO - exImpl$StubIndexInitialization - Initialization done:188 
+2019-06-24 13:29:34,621 [  11103]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-06-24 13:29:34,626 [  11108]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-06-24 13:29:34,763 [  11245]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-06-24 13:29:35,775 [  12257]   INFO - j.ide.ui.OptionsTopHitProvider - 826 ms spent on EDT to cache options in application 
+2019-06-24 13:29:36,412 [  12894]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3494 ms 
+2019-06-24 13:29:37,054 [  13536]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 640 ms 
+2019-06-24 13:29:37,656 [  14138]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 602 ms 
+2019-06-24 13:29:37,666 [  14148]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 8 ms 
+2019-06-24 13:29:38,783 [  15265]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 304 ms 
+2019-07-19 00:08:14,040 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-19 00:08:14,154 [    114]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-19 00:08:14,154 [    114]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-19 00:08:14,154 [    114]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-19 00:08:14,154 [    114]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-19 00:08:14,165 [    125]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-19 00:08:14,166 [    126]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-19 00:08:14,166 [    126]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-19 00:08:14,194 [    154]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 28 ms 
+2019-07-19 00:08:14,718 [    678]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-19 00:08:14,719 [    679]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-19 00:08:16,813 [   2773]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-19 00:08:17,071 [   3031]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-19 00:08:17,071 [   3031]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-19 00:08:17,340 [   3300]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 1093 ms 
+2019-07-19 00:08:23,843 [   9803]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@64d10d4e[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@5319f191 
+2019-07-19 00:08:23,949 [   9909]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-19 00:08:24,434 [  10394]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-19 00:08:24,533 [  10493]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-19 00:08:24,535 [  10495]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-19 00:08:24,742 [  10702]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 438 ms 
+2019-07-19 00:08:24,781 [  10741]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-19 00:08:25,000 [  10960]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 697 ms 
+2019-07-19 00:08:25,004 [  10964]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-19 00:08:25,005 [  10965]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-19 00:08:26,504 [  12464]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-19 00:08:26,716 [  12676]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-19 00:08:26,716 [  12676]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-19 00:08:26,752 [  12712]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-19 00:08:26,810 [  12770]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-19 00:08:26,863 [  12823]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-19 00:08:26,887 [  12847]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-19 00:08:29,381 [  15341]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-19 00:08:29,406 [  15366]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-19 00:08:29,445 [  15405]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-19 00:08:29,526 [  15486]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-07-19 00:08:29,728 [  15688]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-19 00:08:30,263 [  16223]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:292, number of extensions:40 
+2019-07-19 00:08:30,298 [  16258]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:34 
+2019-07-19 00:08:30,591 [  16551]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:246, number of extensions:74 
+2019-07-19 00:08:30,593 [  16553]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-19 00:08:31,695 [  17655]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 7402ms 
+2019-07-19 00:08:31,805 [  17765]   INFO - .intellij.idea.IdeaApplication - App initialization took 20429 ms 
+2019-07-19 00:08:32,167 [  18127]   INFO - j.ide.ui.OptionsTopHitProvider - 3151 ms spent to cache options in application 
+2019-07-19 00:08:32,167 [  18127]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 3151 ms 
+2019-07-19 00:08:32,947 [  18907]   INFO - pl$FileIndexDataInitialization - Initialization done:2648 
+2019-07-19 00:08:33,268 [  19228]   INFO - exImpl$StubIndexInitialization - Initialization done:320 
+2019-07-19 00:08:34,718 [  20678]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-19 00:08:34,734 [  20694]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-19 00:08:35,049 [  21009]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-19 00:08:36,951 [  22911]   INFO - j.ide.ui.OptionsTopHitProvider - 1555 ms spent on EDT to cache options in application 
+2019-07-19 00:08:37,835 [  23795]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 5667 ms 
+2019-07-19 00:08:39,063 [  25023]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 1227 ms 
+2019-07-19 00:08:40,037 [  25997]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 972 ms 
+2019-07-19 00:08:40,066 [  26026]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 29 ms 
+2019-07-19 00:11:15,279 [ 181239]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 35 ms, FileTypeManager took 15 ms, UISettings took 12 ms 
+2019-07-19 00:11:15,309 [ 181269]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-19 00:11:15,317 [ 181277]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-19 00:11:15,317 [ 181277]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-19 00:11:15,371 [ 181331]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-19 00:11:15,376 [ 181336]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-19 00:11:15,383 [ 181343]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-19 00:11:15,393 [ 181353]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-19 00:11:15,394 [ 181354]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-19 00:11:15,395 [ 181355]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-19 00:11:15,397 [ 181357]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-19 00:11:15,404 [ 181364]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 09:46:03,093 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-22 09:46:03,229 [    136]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-22 09:46:03,230 [    137]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-22 09:46:03,230 [    137]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-22 09:46:03,230 [    137]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-22 09:46:03,241 [    148]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-22 09:46:03,241 [    148]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-22 09:46:03,241 [    148]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-22 09:46:03,273 [    180]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 31 ms 
+2019-07-22 09:46:04,392 [   1299]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-22 09:46:04,392 [   1299]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-22 09:46:07,671 [   4578]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 09:46:07,982 [   4889]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 09:46:07,982 [   4889]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 09:46:08,272 [   5179]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 1226 ms 
+2019-07-22 09:46:21,265 [  18172]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@758eea21[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@7940eba7 
+2019-07-22 09:46:21,406 [  18313]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-22 09:46:22,026 [  18933]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 09:46:22,059 [  18966]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 09:46:22,060 [  18967]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 09:46:22,462 [  19369]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 674 ms 
+2019-07-22 09:46:22,509 [  19416]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-22 09:46:22,811 [  19718]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 1023 ms 
+2019-07-22 09:46:22,811 [  19718]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-22 09:46:22,812 [  19719]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-22 09:46:25,139 [  22046]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-22 09:46:25,486 [  22393]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-22 09:46:25,486 [  22393]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-22 09:46:25,561 [  22468]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-22 09:46:25,702 [  22609]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-22 09:46:25,772 [  22679]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-22 09:46:25,813 [  22720]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-22 09:46:29,341 [  26248]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-22 09:46:29,394 [  26301]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-22 09:46:29,415 [  26322]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-22 09:46:29,549 [  26456]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-22 09:46:29,822 [  26729]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-22 09:46:30,610 [  27517]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:456, number of extensions:40 
+2019-07-22 09:46:30,623 [  27530]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:13 
+2019-07-22 09:46:30,835 [  27742]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:162, number of extensions:74 
+2019-07-22 09:46:30,843 [  27750]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-22 09:46:32,044 [  28951]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 10264ms 
+2019-07-22 09:46:32,131 [  29038]   INFO - .intellij.idea.IdeaApplication - App initialization took 32105 ms 
+2019-07-22 09:46:32,476 [  29383]   INFO - j.ide.ui.OptionsTopHitProvider - 3364 ms spent to cache options in application 
+2019-07-22 09:46:32,477 [  29384]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 3364 ms 
+2019-07-22 09:46:33,144 [  30051]   INFO - pl$FileIndexDataInitialization - Initialization done:2521 
+2019-07-22 09:46:33,458 [  30365]   INFO - exImpl$StubIndexInitialization - Initialization done:313 
+2019-07-22 09:46:35,040 [  31947]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-22 09:46:35,043 [  31950]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-22 09:46:35,341 [  32248]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-22 09:46:36,948 [  33855]   INFO - j.ide.ui.OptionsTopHitProvider - 1365 ms spent on EDT to cache options in application 
+2019-07-22 09:46:38,066 [  34973]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 5589 ms 
+2019-07-22 09:46:39,267 [  36174]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 1196 ms 
+2019-07-22 09:46:40,477 [  37384]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 1209 ms 
+2019-07-22 09:46:40,491 [  37398]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 13 ms 
+2019-07-22 09:46:51,702 [  48609]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 27 ms 
+2019-07-22 09:46:51,727 [  48634]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-22 09:46:51,729 [  48636]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-22 09:46:51,729 [  48636]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-22 09:46:51,782 [  48689]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-22 09:46:51,785 [  48692]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 09:46:51,791 [  48698]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-22 09:46:51,797 [  48704]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-22 09:46:51,798 [  48705]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-22 09:46:51,800 [  48707]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-22 09:46:51,805 [  48712]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-22 09:46:51,816 [  48723]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 10:56:34,779 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-22 10:56:34,885 [    106]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-22 10:56:34,885 [    106]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-22 10:56:34,885 [    106]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-22 10:56:34,886 [    107]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-22 10:56:34,898 [    119]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-22 10:56:34,898 [    119]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-22 10:56:34,898 [    119]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-22 10:56:34,931 [    152]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 32 ms 
+2019-07-22 10:56:35,380 [    601]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-22 10:56:35,381 [    602]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-22 10:56:37,726 [   2947]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 10:56:37,796 [   3017]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 10:56:37,796 [   3017]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 10:56:38,019 [   3240]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 683 ms 
+2019-07-22 10:56:43,350 [   8571]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@437e0b1f[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@290b0490 
+2019-07-22 10:56:43,433 [   8654]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-22 10:56:43,959 [   9180]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 10:56:44,025 [   9246]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 10:56:44,026 [   9247]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 10:56:44,310 [   9531]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 566 ms 
+2019-07-22 10:56:44,356 [   9577]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-22 10:56:44,529 [   9750]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 785 ms 
+2019-07-22 10:56:44,534 [   9755]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-22 10:56:44,534 [   9755]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-22 10:56:45,894 [  11115]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-22 10:56:46,109 [  11330]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-22 10:56:46,109 [  11330]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-22 10:56:46,161 [  11382]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-22 10:56:46,214 [  11435]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-22 10:56:46,280 [  11501]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-22 10:56:46,318 [  11539]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-22 10:56:48,644 [  13865]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-22 10:56:48,694 [  13915]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-22 10:56:48,735 [  13956]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-22 10:56:48,758 [  13979]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-22 10:56:49,085 [  14306]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-22 10:56:49,551 [  14772]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:248, number of extensions:40 
+2019-07-22 10:56:49,558 [  14779]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:7 
+2019-07-22 10:56:49,686 [  14907]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:99, number of extensions:74 
+2019-07-22 10:56:49,687 [  14908]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-22 10:56:50,262 [  15483]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 6525ms 
+2019-07-22 10:56:50,297 [  15518]   INFO - .intellij.idea.IdeaApplication - App initialization took 18397 ms 
+2019-07-22 10:56:50,666 [  15887]   INFO - j.ide.ui.OptionsTopHitProvider - 2166 ms spent to cache options in application 
+2019-07-22 10:56:50,667 [  15888]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2166 ms 
+2019-07-22 10:56:51,192 [  16413]   INFO - pl$FileIndexDataInitialization - Initialization done:1633 
+2019-07-22 10:56:51,356 [  16577]   INFO - exImpl$StubIndexInitialization - Initialization done:163 
+2019-07-22 10:56:52,105 [  17326]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-22 10:56:52,114 [  17335]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-22 10:56:52,245 [  17466]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-22 10:56:53,123 [  18344]   INFO - j.ide.ui.OptionsTopHitProvider - 671 ms spent on EDT to cache options in application 
+2019-07-22 10:56:53,343 [  18564]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 2676 ms 
+2019-07-22 10:56:53,531 [  18752]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 39 ms, FileTypeManager took 13 ms 
+2019-07-22 10:56:53,558 [  18779]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-22 10:56:53,562 [  18783]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-22 10:56:53,562 [  18783]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-22 10:56:53,637 [  18858]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-22 10:56:53,645 [  18866]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 10:56:53,665 [  18886]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-22 10:56:53,671 [  18892]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 327 ms 
+2019-07-22 10:56:53,706 [  18927]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-22 10:56:53,708 [  18929]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-22 10:56:53,710 [  18931]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-22 10:56:53,733 [  18954]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-22 10:56:53,737 [  18958]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 16:05:21,487 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-22 16:05:21,591 [    104]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-22 16:05:21,591 [    104]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-22 16:05:21,591 [    104]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-22 16:05:21,591 [    104]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-22 16:05:21,601 [    114]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-22 16:05:21,601 [    114]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-22 16:05:21,601 [    114]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-22 16:05:21,634 [    147]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 33 ms 
+2019-07-22 16:05:22,076 [    589]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-22 16:05:22,076 [    589]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-22 16:05:24,679 [   3192]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 16:05:24,981 [   3494]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 16:05:24,982 [   3495]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 16:05:25,309 [   3822]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 1343 ms 
+2019-07-22 16:05:29,523 [   8036]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@15637972[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@7b3d431a 
+2019-07-22 16:05:29,651 [   8164]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-22 16:05:30,080 [   8593]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 16:05:30,093 [   8606]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 16:05:30,093 [   8606]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 16:05:30,249 [   8762]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 311 ms 
+2019-07-22 16:05:30,276 [   8789]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-22 16:05:30,438 [   8951]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 501 ms 
+2019-07-22 16:05:30,439 [   8952]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-22 16:05:30,439 [   8952]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-22 16:05:31,997 [  10510]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-22 16:05:32,302 [  10815]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-22 16:05:32,302 [  10815]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-22 16:05:32,350 [  10863]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-22 16:05:32,412 [  10925]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-22 16:05:32,456 [  10969]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-22 16:05:32,515 [  11028]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-22 16:05:34,948 [  13461]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-22 16:05:34,960 [  13473]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-22 16:05:34,984 [  13497]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-22 16:05:35,070 [  13583]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-22 16:05:35,235 [  13748]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-22 16:05:35,720 [  14233]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:243, number of extensions:40 
+2019-07-22 16:05:35,730 [  14243]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:9 
+2019-07-22 16:05:35,938 [  14451]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:174, number of extensions:74 
+2019-07-22 16:05:35,939 [  14452]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-22 16:05:36,656 [  15169]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 6725ms 
+2019-07-22 16:05:36,678 [  15191]   INFO - .intellij.idea.IdeaApplication - App initialization took 17904 ms 
+2019-07-22 16:05:36,998 [  15511]   INFO - j.ide.ui.OptionsTopHitProvider - 2129 ms spent to cache options in application 
+2019-07-22 16:05:36,999 [  15512]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2129 ms 
+2019-07-22 16:05:37,421 [  15934]   INFO - pl$FileIndexDataInitialization - Initialization done:1687 
+2019-07-22 16:05:37,643 [  16156]   INFO - exImpl$StubIndexInitialization - Initialization done:221 
+2019-07-22 16:05:38,650 [  17163]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-22 16:05:38,658 [  17171]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-22 16:05:38,783 [  17296]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-22 16:05:40,006 [  18519]   INFO - j.ide.ui.OptionsTopHitProvider - 951 ms spent on EDT to cache options in application 
+2019-07-22 16:05:40,893 [  19406]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3894 ms 
+2019-07-22 16:05:41,465 [  19978]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 571 ms 
+2019-07-22 16:05:42,006 [  20519]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 540 ms 
+2019-07-22 16:05:42,015 [  20528]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 8 ms 
+2019-07-22 16:35:31,927 [1810440]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 30 ms, FileTypeManager took 15 ms 
+2019-07-22 16:35:31,941 [1810454]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-22 16:35:31,944 [1810457]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-22 16:35:31,944 [1810457]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-22 16:35:31,985 [1810498]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-22 16:35:31,990 [1810503]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 16:35:31,998 [1810511]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-22 16:35:32,005 [1810518]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-22 16:35:32,007 [1810520]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-22 16:35:32,010 [1810523]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-22 16:35:32,013 [1810526]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-22 16:35:32,019 [1810532]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 17:01:35,368 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-22 17:01:35,406 [     38]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-22 17:01:35,406 [     38]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-22 17:01:35,406 [     38]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-22 17:01:35,406 [     38]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-22 17:01:35,408 [     40]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-22 17:01:35,409 [     41]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-22 17:01:35,409 [     41]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-22 17:01:35,427 [     59]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 17 ms 
+2019-07-22 17:01:35,707 [    339]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-22 17:01:35,707 [    339]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-22 17:01:37,127 [   1759]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 17:01:37,176 [   1808]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 17:01:37,177 [   1809]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 17:01:37,534 [   2166]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 848 ms 
+2019-07-22 17:01:41,106 [   5738]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@454de839[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@148fab5b 
+2019-07-22 17:01:41,176 [   5808]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-22 17:01:41,517 [   6149]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-22 17:01:41,564 [   6196]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-22 17:01:41,582 [   6214]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-22 17:01:41,758 [   6390]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 370 ms 
+2019-07-22 17:01:41,784 [   6416]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-22 17:01:41,995 [   6627]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 607 ms 
+2019-07-22 17:01:41,996 [   6628]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-22 17:01:41,996 [   6628]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-22 17:01:42,475 [   7107]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-22 17:01:42,576 [   7208]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-22 17:01:42,577 [   7209]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-22 17:01:42,610 [   7242]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-22 17:01:42,653 [   7285]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-22 17:01:42,685 [   7317]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-22 17:01:42,711 [   7343]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-22 17:01:43,939 [   8571]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-22 17:01:43,999 [   8631]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-22 17:01:44,022 [   8654]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-22 17:01:44,059 [   8691]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-22 17:01:44,219 [   8851]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-22 17:01:44,422 [   9054]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:72, number of extensions:40 
+2019-07-22 17:01:44,431 [   9063]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:8 
+2019-07-22 17:01:44,597 [   9229]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:114, number of extensions:74 
+2019-07-22 17:01:44,598 [   9230]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:1 
+2019-07-22 17:01:45,295 [   9927]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 3916ms 
+2019-07-22 17:01:45,360 [   9992]   INFO - .intellij.idea.IdeaApplication - App initialization took 11458 ms 
+2019-07-22 17:01:45,803 [  10435]   INFO - j.ide.ui.OptionsTopHitProvider - 1943 ms spent to cache options in application 
+2019-07-22 17:01:45,803 [  10435]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1942 ms 
+2019-07-22 17:01:45,978 [  10610]   INFO - pl$FileIndexDataInitialization - Initialization done:1547 
+2019-07-22 17:01:46,155 [  10787]   INFO - exImpl$StubIndexInitialization - Initialization done:172 
+2019-07-22 17:01:47,302 [  11934]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-22 17:01:47,340 [  11972]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-22 17:01:47,480 [  12112]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-22 17:01:48,663 [  13295]   INFO - j.ide.ui.OptionsTopHitProvider - 930 ms spent on EDT to cache options in application 
+2019-07-22 17:01:48,918 [  13550]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3114 ms 
+2019-07-22 17:01:49,601 [  14233]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 683 ms 
+2019-07-22 17:01:50,112 [  14744]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 510 ms 
+2019-07-22 17:01:50,123 [  14755]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 7 ms 
+2019-07-22 17:31:58,089 [1822721]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 29 ms, FileTypeManager took 20 ms, UISettings took 11 ms 
+2019-07-22 17:31:58,113 [1822745]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-22 17:31:58,122 [1822754]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-22 17:31:58,122 [1822754]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-22 17:31:58,163 [1822795]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-22 17:31:58,168 [1822800]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-22 17:31:58,175 [1822807]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-22 17:31:58,182 [1822814]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-22 17:31:58,187 [1822819]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-22 17:31:58,190 [1822822]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-22 17:31:58,197 [1822829]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-22 17:31:58,205 [1822837]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-23 15:05:36,804 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-23 15:05:36,963 [    159]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-23 15:05:36,964 [    160]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-23 15:05:36,964 [    160]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-23 15:05:36,964 [    160]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-23 15:05:36,977 [    173]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-23 15:05:36,978 [    174]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-23 15:05:36,978 [    174]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-23 15:05:37,016 [    212]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 37 ms 
+2019-07-23 15:05:37,487 [    683]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-23 15:05:37,487 [    683]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-23 15:05:39,926 [   3122]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-23 15:05:40,134 [   3330]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-23 15:05:40,137 [   3333]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-23 15:05:40,383 [   3579]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 990 ms 
+2019-07-23 15:05:43,144 [   6340]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@40dcdbbd[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2af04586 
+2019-07-23 15:05:43,254 [   6450]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-23 15:05:43,686 [   6882]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-23 15:05:43,767 [   6963]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-23 15:05:43,767 [   6963]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-23 15:05:43,903 [   7099]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 344 ms 
+2019-07-23 15:05:43,933 [   7129]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-23 15:05:44,078 [   7274]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 520 ms 
+2019-07-23 15:05:44,079 [   7275]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-23 15:05:44,079 [   7275]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-23 15:05:45,484 [   8680]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-23 15:05:45,681 [   8877]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-23 15:05:45,681 [   8877]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-23 15:05:45,712 [   8908]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-23 15:05:45,764 [   8960]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-23 15:05:45,822 [   9018]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-23 15:05:45,854 [   9050]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-23 15:05:47,968 [  11164]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-23 15:05:47,987 [  11183]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-23 15:05:48,038 [  11234]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-23 15:05:48,218 [  11414]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-23 15:05:48,325 [  11521]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-23 15:05:48,701 [  11897]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:227, number of extensions:40 
+2019-07-23 15:05:48,714 [  11910]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:12 
+2019-07-23 15:05:48,835 [  12031]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:101, number of extensions:74 
+2019-07-23 15:05:48,836 [  12032]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-23 15:05:49,478 [  12674]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 5927ms 
+2019-07-23 15:05:49,522 [  12718]   INFO - .intellij.idea.IdeaApplication - App initialization took 15749 ms 
+2019-07-23 15:05:49,840 [  13036]   INFO - j.ide.ui.OptionsTopHitProvider - 1956 ms spent to cache options in application 
+2019-07-23 15:05:49,840 [  13036]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1956 ms 
+2019-07-23 15:05:50,270 [  13466]   INFO - pl$FileIndexDataInitialization - Initialization done:1555 
+2019-07-23 15:05:50,436 [  13632]   INFO - exImpl$StubIndexInitialization - Initialization done:166 
+2019-07-23 15:05:51,365 [  14561]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-23 15:05:51,375 [  14571]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-23 15:05:51,479 [  14675]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-23 15:05:52,275 [  15471]   INFO - j.ide.ui.OptionsTopHitProvider - 638 ms spent on EDT to cache options in application 
+2019-07-23 15:05:52,984 [  16180]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3144 ms 
+2019-07-23 15:05:53,529 [  16725]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 543 ms 
+2019-07-23 15:05:54,080 [  17276]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 551 ms 
+2019-07-23 15:05:54,093 [  17289]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 12 ms 
+2019-07-23 15:35:51,165 [1814361]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 24 ms 
+2019-07-23 15:35:51,189 [1814385]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-23 15:35:51,197 [1814393]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-23 15:35:51,198 [1814394]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-23 15:35:51,231 [1814427]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-23 15:35:51,234 [1814430]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-23 15:35:51,241 [1814437]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-23 15:35:51,248 [1814444]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-23 15:35:51,251 [1814447]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-23 15:35:51,252 [1814448]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-23 15:35:51,260 [1814456]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-23 15:35:51,264 [1814460]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 17:25:21,177 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-24 17:25:21,296 [    119]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-24 17:25:21,296 [    119]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-24 17:25:21,298 [    121]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-24 17:25:21,298 [    121]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-24 17:25:21,311 [    134]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-24 17:25:21,312 [    135]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-24 17:25:21,312 [    135]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-24 17:25:21,341 [    164]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 29 ms 
+2019-07-24 17:25:22,151 [    974]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-24 17:25:22,151 [    974]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-24 17:25:24,629 [   3452]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 17:25:24,906 [   3729]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 17:25:24,907 [   3730]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 17:25:25,174 [   3997]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 1097 ms 
+2019-07-24 17:25:29,001 [   7824]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@128417c7[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@4d42020b 
+2019-07-24 17:25:29,124 [   7947]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-24 17:25:29,664 [   8487]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 17:25:29,695 [   8518]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 17:25:29,695 [   8518]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 17:25:29,964 [   8787]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 460 ms 
+2019-07-24 17:25:29,996 [   8819]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-24 17:25:30,230 [   9053]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 726 ms 
+2019-07-24 17:25:30,231 [   9054]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-24 17:25:30,231 [   9054]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-24 17:25:31,725 [  10548]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-24 17:25:31,919 [  10742]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-24 17:25:31,919 [  10742]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-24 17:25:31,948 [  10771]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-24 17:25:32,000 [  10823]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-24 17:25:32,042 [  10865]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-24 17:25:32,071 [  10894]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-24 17:25:33,812 [  12635]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-24 17:25:33,835 [  12658]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-24 17:25:33,860 [  12683]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-24 17:25:33,928 [  12751]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-07-24 17:25:34,128 [  12951]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-24 17:25:34,503 [  13326]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:219, number of extensions:40 
+2019-07-24 17:25:34,514 [  13337]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:10 
+2019-07-24 17:25:34,637 [  13460]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:105, number of extensions:74 
+2019-07-24 17:25:34,638 [  13461]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-24 17:25:35,148 [  13971]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 5659ms 
+2019-07-24 17:25:35,185 [  14008]   INFO - .intellij.idea.IdeaApplication - App initialization took 17088 ms 
+2019-07-24 17:25:35,545 [  14368]   INFO - j.ide.ui.OptionsTopHitProvider - 1811 ms spent to cache options in application 
+2019-07-24 17:25:35,545 [  14368]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1810 ms 
+2019-07-24 17:25:36,019 [  14842]   INFO - pl$FileIndexDataInitialization - Initialization done:1504 
+2019-07-24 17:25:36,249 [  15072]   INFO - exImpl$StubIndexInitialization - Initialization done:230 
+2019-07-24 17:25:36,999 [  15822]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-24 17:25:37,006 [  15829]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-24 17:25:37,134 [  15957]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-24 17:25:37,909 [  16732]   INFO - j.ide.ui.OptionsTopHitProvider - 582 ms spent on EDT to cache options in application 
+2019-07-24 17:25:38,545 [  17368]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 2994 ms 
+2019-07-24 17:25:39,005 [  17828]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 459 ms 
+2019-07-24 17:25:39,514 [  18337]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 509 ms 
+2019-07-24 17:25:39,528 [  18351]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 13 ms 
+2019-07-24 17:26:13,419 [  52242]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 56 ms, FileTypeManager took 16 ms, XDebuggerSettings took 12 ms 
+2019-07-24 17:26:13,475 [  52298]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-24 17:26:13,478 [  52301]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-24 17:26:13,478 [  52301]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-24 17:26:13,525 [  52348]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-24 17:26:13,528 [  52351]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 17:26:13,536 [  52359]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-24 17:26:13,542 [  52365]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-24 17:26:13,543 [  52366]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-24 17:26:13,544 [  52367]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-24 17:26:13,549 [  52372]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-24 17:26:13,559 [  52382]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 22:39:27,786 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-24 22:39:27,890 [    104]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-24 22:39:27,890 [    104]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-24 22:39:27,890 [    104]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-24 22:39:27,890 [    104]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-24 22:39:27,900 [    114]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-24 22:39:27,900 [    114]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-24 22:39:27,900 [    114]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-24 22:39:27,925 [    139]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 24 ms 
+2019-07-24 22:39:28,435 [    649]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-24 22:39:28,435 [    649]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-24 22:39:30,622 [   2836]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 22:39:30,876 [   3090]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 22:39:30,877 [   3091]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 22:39:31,059 [   3273]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 895 ms 
+2019-07-24 22:42:18,410 [ 170624]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@710c1289[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@4010bee5 
+2019-07-24 22:42:18,517 [ 170731]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-24 22:42:18,928 [ 171142]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 22:42:18,974 [ 171188]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 22:42:18,975 [ 171189]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 22:42:19,158 [ 171372]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 351 ms 
+2019-07-24 22:42:19,189 [ 171403]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-24 22:42:19,331 [ 171545]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 524 ms 
+2019-07-24 22:42:19,333 [ 171547]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-24 22:42:19,333 [ 171547]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-24 22:42:20,809 [ 173023]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-24 22:42:20,991 [ 173205]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-24 22:42:20,991 [ 173205]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-24 22:42:21,025 [ 173239]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-24 22:42:21,091 [ 173305]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-24 22:42:21,150 [ 173364]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-24 22:42:21,199 [ 173413]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-24 22:42:23,242 [ 175456]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-24 22:42:23,265 [ 175479]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-24 22:42:23,369 [ 175583]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-24 22:42:23,424 [ 175638]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-24 22:42:23,616 [ 175830]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-24 22:42:23,980 [ 176194]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:227, number of extensions:40 
+2019-07-24 22:42:23,989 [ 176203]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:9 
+2019-07-24 22:42:24,135 [ 176349]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:120, number of extensions:74 
+2019-07-24 22:42:24,136 [ 176350]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-24 22:42:24,768 [ 176982]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 5967ms 
+2019-07-24 22:42:24,796 [ 177010]   INFO - .intellij.idea.IdeaApplication - App initialization took 179664 ms 
+2019-07-24 22:42:25,065 [ 177279]   INFO - j.ide.ui.OptionsTopHitProvider - 1941 ms spent to cache options in application 
+2019-07-24 22:42:25,065 [ 177279]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1941 ms 
+2019-07-24 22:42:25,523 [ 177737]   INFO - pl$FileIndexDataInitialization - Initialization done:1533 
+2019-07-24 22:42:25,728 [ 177942]   INFO - exImpl$StubIndexInitialization - Initialization done:205 
+2019-07-24 22:42:26,533 [ 178747]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-24 22:42:26,543 [ 178757]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-24 22:42:26,650 [ 178864]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-24 22:42:27,549 [ 179763]   INFO - j.ide.ui.OptionsTopHitProvider - 728 ms spent on EDT to cache options in application 
+2019-07-24 22:42:28,288 [ 180502]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3223 ms 
+2019-07-24 22:42:28,752 [ 180966]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 463 ms 
+2019-07-24 22:42:29,234 [ 181448]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 481 ms 
+2019-07-24 22:42:29,244 [ 181458]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 10 ms 
+2019-07-24 22:42:40,372 [ 192586]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 25 ms, FileBasedIndex took 31 ms, FileTypeManager took 15 ms 
+2019-07-24 22:42:40,402 [ 192616]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-24 22:42:40,415 [ 192629]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-24 22:42:40,415 [ 192629]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-24 22:42:40,451 [ 192665]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-24 22:42:40,454 [ 192668]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 22:42:40,458 [ 192672]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-24 22:42:40,464 [ 192678]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-24 22:42:40,465 [ 192679]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-24 22:42:40,466 [ 192680]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-24 22:42:40,479 [ 192693]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-24 22:42:40,485 [ 192699]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 22:47:27,326 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-24 22:47:27,373 [     47]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-24 22:47:27,373 [     47]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-24 22:47:27,374 [     48]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-24 22:47:27,374 [     48]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-24 22:47:27,376 [     50]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-24 22:47:27,376 [     50]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-24 22:47:27,376 [     50]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-24 22:47:27,397 [     71]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 21 ms 
+2019-07-24 22:47:27,667 [    341]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-24 22:47:27,667 [    341]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-24 22:47:29,210 [   1884]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 22:47:29,258 [   1932]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 22:47:29,259 [   1933]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 22:47:29,496 [   2170]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 694 ms 
+2019-07-24 22:52:23,624 [ 296298]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@2d626c0a[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3724a56c 
+2019-07-24 22:52:23,666 [ 296340]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-24 22:52:23,958 [ 296632]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 22:52:24,046 [ 296720]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 22:52:24,048 [ 296722]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 22:52:24,219 [ 296893]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 344 ms 
+2019-07-24 22:52:24,243 [ 296917]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-24 22:52:24,376 [ 297050]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 502 ms 
+2019-07-24 22:52:24,376 [ 297050]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-24 22:52:24,376 [ 297050]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-24 22:52:24,801 [ 297475]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-24 22:52:24,901 [ 297575]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-24 22:52:24,902 [ 297576]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-24 22:52:24,933 [ 297607]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-24 22:52:24,965 [ 297639]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-24 22:52:25,005 [ 297679]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-24 22:52:25,059 [ 297733]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-24 22:52:26,490 [ 299164]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-24 22:52:26,510 [ 299184]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-24 22:52:26,526 [ 299200]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-24 22:52:26,543 [ 299217]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-24 22:52:26,656 [ 299330]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-24 22:52:26,823 [ 299497]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:80, number of extensions:40 
+2019-07-24 22:52:26,831 [ 299505]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:7 
+2019-07-24 22:52:26,932 [ 299606]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:80, number of extensions:74 
+2019-07-24 22:52:26,933 [ 299607]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-24 22:52:27,351 [ 300025]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 3483ms 
+2019-07-24 22:52:27,378 [ 300052]   INFO - .intellij.idea.IdeaApplication - App initialization took 301589 ms 
+2019-07-24 22:52:27,662 [ 300336]   INFO - j.ide.ui.OptionsTopHitProvider - 1394 ms spent to cache options in application 
+2019-07-24 22:52:27,662 [ 300336]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1394 ms 
+2019-07-24 22:52:27,919 [ 300593]   INFO - pl$FileIndexDataInitialization - Initialization done:1087 
+2019-07-24 22:52:28,039 [ 300713]   INFO - exImpl$StubIndexInitialization - Initialization done:120 
+2019-07-24 22:52:28,895 [ 301569]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-24 22:52:28,915 [ 301589]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-24 22:52:29,076 [ 301750]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-24 22:52:30,038 [ 302712]   INFO - j.ide.ui.OptionsTopHitProvider - 676 ms spent on EDT to cache options in application 
+2019-07-24 22:52:30,377 [ 303051]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 2714 ms 
+2019-07-24 22:52:30,913 [ 303587]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 535 ms 
+2019-07-24 22:52:31,253 [ 303927]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 339 ms 
+2019-07-24 22:52:31,258 [ 303932]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 4 ms 
+2019-07-24 22:53:24,642 [ 357316]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 16 ms, FileTypeManager took 11 ms 
+2019-07-24 22:53:24,662 [ 357336]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-24 22:53:24,678 [ 357352]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-24 22:53:24,679 [ 357353]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-24 22:53:24,727 [ 357401]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-24 22:53:24,731 [ 357405]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 22:53:24,738 [ 357412]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-24 22:53:24,744 [ 357418]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-24 22:53:24,745 [ 357419]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-24 22:53:24,746 [ 357420]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-24 22:53:24,749 [ 357423]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-24 22:53:24,758 [ 357432]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 22:57:18,548 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-24 22:57:18,586 [     38]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-24 22:57:18,586 [     38]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-24 22:57:18,586 [     38]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-24 22:57:18,586 [     38]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-24 22:57:18,588 [     40]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-24 22:57:18,588 [     40]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-24 22:57:18,588 [     40]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-24 22:57:18,605 [     57]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 16 ms 
+2019-07-24 22:57:18,907 [    359]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-24 22:57:18,907 [    359]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-24 22:57:20,318 [   1770]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 22:57:20,338 [   1790]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 22:57:20,339 [   1791]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 22:57:20,526 [   1978]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 519 ms 
+2019-07-24 22:57:22,793 [   4245]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@647b2ffb[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@21485e34 
+2019-07-24 22:57:22,833 [   4285]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-24 22:57:23,199 [   4651]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 22:57:23,265 [   4717]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 22:57:23,266 [   4718]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 22:57:23,404 [   4856]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 324 ms 
+2019-07-24 22:57:23,435 [   4887]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-24 22:57:23,587 [   5039]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 508 ms 
+2019-07-24 22:57:23,588 [   5040]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-24 22:57:23,588 [   5040]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-24 22:57:24,046 [   5498]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-24 22:57:24,232 [   5684]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-24 22:57:24,233 [   5685]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-24 22:57:24,276 [   5728]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-24 22:57:24,326 [   5778]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-24 22:57:24,378 [   5830]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-24 22:57:24,450 [   5902]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-24 22:57:25,894 [   7346]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-24 22:57:25,952 [   7404]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-24 22:57:25,963 [   7415]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-24 22:57:25,965 [   7417]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-24 22:57:26,118 [   7570]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-24 22:57:26,308 [   7760]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:81, number of extensions:40 
+2019-07-24 22:57:26,316 [   7768]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:7 
+2019-07-24 22:57:26,382 [   7834]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:45, number of extensions:74 
+2019-07-24 22:57:26,383 [   7835]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-24 22:57:26,750 [   8202]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 3680ms 
+2019-07-24 22:57:26,790 [   8242]   INFO - .intellij.idea.IdeaApplication - App initialization took 9685 ms 
+2019-07-24 22:57:27,086 [   8538]   INFO - j.ide.ui.OptionsTopHitProvider - 1282 ms spent to cache options in application 
+2019-07-24 22:57:27,086 [   8538]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1282 ms 
+2019-07-24 22:57:27,307 [   8759]   INFO - pl$FileIndexDataInitialization - Initialization done:991 
+2019-07-24 22:57:27,370 [   8822]   INFO - exImpl$StubIndexInitialization - Initialization done:62 
+2019-07-24 22:57:28,396 [   9848]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-24 22:57:28,424 [   9876]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-24 22:57:28,537 [   9989]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-24 22:57:29,474 [  10926]   INFO - j.ide.ui.OptionsTopHitProvider - 693 ms spent on EDT to cache options in application 
+2019-07-24 22:57:29,873 [  11325]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 2786 ms 
+2019-07-24 22:57:30,458 [  11910]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 584 ms 
+2019-07-24 22:57:30,798 [  12250]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 339 ms 
+2019-07-24 22:57:30,802 [  12254]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 4 ms 
+2019-07-24 23:01:55,340 [ 276792]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 28 ms, EditorColorsManagerImpl took 22 ms, FileTypeManager took 14 ms, XDebuggerSettings took 14 ms 
+2019-07-24 23:01:55,380 [ 276832]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-24 23:01:55,387 [ 276839]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-24 23:01:55,387 [ 276839]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-24 23:01:55,426 [ 276878]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-24 23:01:55,430 [ 276882]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 23:01:55,439 [ 276891]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-24 23:01:55,447 [ 276899]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-24 23:01:55,448 [ 276900]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-24 23:01:55,449 [ 276901]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-24 23:01:55,466 [ 276918]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-24 23:01:55,470 [ 276922]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-24 23:04:46,013 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-24 23:04:46,067 [     54]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-24 23:04:46,068 [     55]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-24 23:04:46,068 [     55]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-24 23:04:46,068 [     55]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-24 23:04:46,069 [     56]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-24 23:04:46,070 [     57]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-24 23:04:46,070 [     57]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-24 23:04:46,089 [     76]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 19 ms 
+2019-07-24 23:04:46,374 [    361]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-24 23:04:46,374 [    361]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-24 23:04:47,550 [   1537]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-24 23:04:47,611 [   1598]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-24 23:04:47,621 [   1608]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-24 23:04:47,775 [   1762]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 444 ms 
+2019-07-24 23:04:50,670 [   4657]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-24 23:04:50,678 [   4665]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-25 15:19:40,295 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-25 15:19:40,408 [    113]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-191.7479.14, 27 May 2019 15:16) 
+2019-07-25 15:19:40,408 [    113]   INFO -        #com.intellij.idea.Main - OS: Linux (4.18.0-15-generic, amd64) 
+2019-07-25 15:19:40,408 [    113]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-25 15:19:40,408 [    113]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-25 15:19:40,418 [    123]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/tu/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/tu/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2019.1 -Djb.vmOptionsFile=/snap/webstorm/95/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2019-07-25 15:19:40,419 [    124]   INFO -        #com.intellij.idea.Main - ext: /snap/webstorm/95/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-25 15:19:40,419 [    124]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-07-25 15:19:40,448 [    153]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 29 ms 
+2019-07-25 15:19:40,987 [    692]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-07-25 15:19:40,987 [    692]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-25 15:19:43,654 [   3359]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-25 15:19:43,968 [   3673]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-25 15:19:43,969 [   3674]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-25 15:19:44,184 [   3889]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 1039 ms 
+2019-07-25 15:19:46,391 [   6096]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3e45eb43[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@240db173 
+2019-07-25 15:19:46,540 [   6245]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-07-25 15:19:46,930 [   6635]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-25 15:19:47,057 [   6762]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-25 15:19:47,057 [   6762]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-25 15:19:47,263 [   6968]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 413 ms 
+2019-07-25 15:19:47,292 [   6997]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-07-25 15:19:47,456 [   7161]   INFO - llij.ide.plugins.PluginManager - 59 plugins initialized in 607 ms 
+2019-07-25 15:19:47,457 [   7162]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.7479.14), Angular and AngularJS (191.7479.14), CSS Support (191.7479.14), CoffeeScript (191.7479.14), Copyright (191.7479.14), Cucumber.js (191.7479.14), Dart (191.7479.14), Docker integration (191.7479.14), EJS (191.7479.14), EditorConfig (191.7479.14), File Watchers (191.7479.14), Gherkin (191.7479.14), Git Integration (191.7479.14), GitHub (191.7479.14), HTML Tools (191.7479.14), HTTP Client (191.7479.14), Haml (191.7479.14), Handlebars/Mustache (191.7479.14), IDE Settings Sync (191.7479.14), IDEA CORE (191.7479.14), IntelliLang (191.7479.14), Java Server Pages (JSP) Integration (191.7479.14), JavaScript Debugger (191.7479.14), JavaScript Intention Power Pack (191.7479.14), JavaScript Support (191.7479.14), Karma (191.7479.14), Less support (191.7479.14), LiveEdit (191.7479.14), Markdown support (191.7479.14), Mercurial Integration (191.7479.14), Meteor (191.7479.14), Node.js Remote Interpreter (191.7479.14), NodeJS (191.7479.14), Performance Testing (191.7479.14), PhoneGap/Cordova Plugin (191.7479.14), Polymer & Web Components (191.7479.14), Prettier (191.7479.14), Pug (ex-Jade) (191.7479.14), Refactor-X (191.7479.14), Remote Hosts Access (191.7479.14), SSH Remote Run (191.7479.14), Sass support (191.7479.14), Settings Repository (191.7479.14), Spy-js (191.7479.14), Stylus support (191.7479.14), Subversion (191.7479.14), Task Management (191.7479.14), Terminal (191.7479.14), TextMate bundles support (191.7479.14), Time Tracking (191.7479.14), UML Support (191.7479.14), Vagrant (191.7479.14), Vue.js (191.7479.14), W3C Validators (191.7479.14), XPathView + XSLT Support (191.7479.14), YAML (191.7479.14), Yeoman (191.7479.14), tslint (191.7479.14) 
+2019-07-25 15:19:47,457 [   7162]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.7479.14) 
+2019-07-25 15:19:49,056 [   8761]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-07-25 15:19:49,288 [   8993]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2019-07-25 15:19:49,288 [   8993]   INFO - pi.util.registry.RegistryState -   ide.tooltip.show.with.actions = true 
+2019-07-25 15:19:49,324 [   9029]   INFO - pi.util.registry.RegistryState - Experimental features enabled for user: inline.browse.button, linux.native.menu, recent.and.edited.files.together 
+2019-07-25 15:19:49,381 [   9086]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-07-25 15:19:49,431 [   9136]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/webstorm/95/bin/fsnotifier64 
+2019-07-25 15:19:49,472 [   9177]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-07-25 15:19:51,968 [  11673]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-07-25 15:19:51,997 [  11702]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-07-25 15:19:52,008 [  11713]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-07-25 15:19:52,077 [  11782]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2019-07-25 15:19:52,371 [  12076]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-07-25 15:19:52,827 [  12532]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:278, number of extensions:40 
+2019-07-25 15:19:52,844 [  12549]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:16 
+2019-07-25 15:19:53,003 [  12708]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:121, number of extensions:74 
+2019-07-25 15:19:53,004 [  12709]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-07-25 15:19:53,681 [  13386]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 6836ms 
+2019-07-25 15:19:53,728 [  13433]   INFO - .intellij.idea.IdeaApplication - App initialization took 16514 ms 
+2019-07-25 15:19:54,196 [  13901]   INFO - j.ide.ui.OptionsTopHitProvider - 2333 ms spent to cache options in application 
+2019-07-25 15:19:54,196 [  13901]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2333 ms 
+2019-07-25 15:19:54,849 [  14554]   INFO - pl$FileIndexDataInitialization - Initialization done:2006 
+2019-07-25 15:19:55,102 [  14807]   INFO - exImpl$StubIndexInitialization - Initialization done:252 
+2019-07-25 15:19:56,161 [  15866]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-07-25 15:19:56,165 [  15870]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-07-25 15:19:56,328 [  16033]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-07-25 15:19:57,486 [  17191]   INFO - j.ide.ui.OptionsTopHitProvider - 856 ms spent on EDT to cache options in application 
+2019-07-25 15:19:58,234 [  17939]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 4037 ms 
+2019-07-25 15:19:58,914 [  18619]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 679 ms 
+2019-07-25 15:19:59,562 [  19267]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 648 ms 
+2019-07-25 15:19:59,574 [  19279]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 11 ms 
+2019-07-25 15:22:38,330 [ 178035]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 38 ms, DartCodeFoldingSettings took 40 ms, FileTypeManager took 16 ms 
+2019-07-25 15:22:38,374 [ 178079]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-07-25 15:22:38,380 [ 178085]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-07-25 15:22:38,380 [ 178085]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-07-25 15:22:38,424 [ 178129]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-07-25 15:22:38,428 [ 178133]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-25 15:22:38,434 [ 178139]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-07-25 15:22:38,441 [ 178146]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-07-25 15:22:38,442 [ 178147]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-07-25 15:22:38,444 [ 178149]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-07-25 15:22:38,451 [ 178156]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-25 15:22:38,454 [ 178159]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

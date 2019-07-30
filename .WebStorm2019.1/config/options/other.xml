@@ -1,0 +1,12 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
+    <property name="WebStorm.enableSmartQuotes" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt.191" value="16c1570f0a7" />
+    <property name="evlsprt2.191" value="16c060eec6d" />
+    <property name="evlsprt3.191" value="19" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+</application>
